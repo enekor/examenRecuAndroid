@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="wrap_content"
+                                                   android:layout_height="wrap_content" android:padding="25dp">
+
+    <TextView
+            android:text="Nuevo nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView3"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/uevoNombre"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" android:hint="Nombre" android:layout_marginTop="15dp"/>
+    <TextView
+            android:text="Nueva nacionalidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/uevoNombre"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp"/>
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="15dp" android:id="@+id/radioGroup2">
+        <RadioButton
+                android:text="filipinas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/nuevoFilipinas"/>
+        <RadioButton
+                android:text="uruguay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/nuevoUruguay"/>
+        <RadioButton
+                android:text="islandia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/nuevoIslandia"/>
+    </RadioGroup>
+    <Button
+            android:text="guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/editarGuardar"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/radioGroup2"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="25dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

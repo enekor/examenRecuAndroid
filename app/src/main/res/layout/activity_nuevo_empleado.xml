@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.Empleados.NuevoEmpleado" android:padding="25dp">
+
+    <Button
+            android:text="foto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/sacarFoto"
+            app:layout_constraintEnd_toStartOf="@+id/nuevoEmpoleado" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="25dp" android:layout_marginEnd="15dp"/>
+    <Button
+            android:text="guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/nuevoEmpoleado"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="25dp" android:layout_marginEnd="25dp"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/nombreNuevoEmpleado" android:hint="Nombre del empleado"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/codigoNuevoEmpleado" android:hint="Codigo del empleado"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="256dp" tools:srcCompat="@tools:sample/avatars"
+                    android:id="@+id/imagenPreviewNuevoEmpleado"/>
+            <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/spinnerNuevoEmpleado"/>
+            <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:id="@+id/radioGroup" android:gravity="center">
+                <RadioButton
+                        android:text="Filipinas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/rFilipinas"/>
+                <RadioButton
+                        android:text="Uruguay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/rUruguay"/>
+                <RadioButton
+                        android:text="Islandia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/rIslandia"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

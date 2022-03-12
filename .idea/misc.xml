@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/layout/activity_nuevo_empleado.xml" value="0.264" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/layout/activity_ver_trabajador.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/layout/app_bar_main.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/layout/content_main.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/layout/departamento_preview.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/layout/editar_trabajador.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/layout/empleado_preview.xml" value="0.2" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/layout/fragment_gallery.xml" value="0.12487335359675786" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/layout/fragment_home.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/layout/nuevo_departamento.xml" value="0.2" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/menu/activity_main_drawer.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/USER/Desktop/ExamenEnekoRecu/app/src/main/res/xml/provider_paths.xml" value="0.20018115942028986" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
